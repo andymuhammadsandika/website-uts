@@ -1,0 +1,251 @@
+body {
+  box-sizing: border-box;
+  font-family: "Avenir Next";
+  color:#404146;
+  text-align: center;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #404146;
+  color: #fff;
+  height: 90px;
+  width: 100%;
+}
+
+.header-logo {
+  float: left;
+  font-size: 30px;
+  font-weight:700;
+  letter-spacing: 10px;
+  padding: 25px 40px;
+}
+
+.header-list li {
+  float: right;
+  padding: 33px 20px;
+  font-size: 20px;
+}
+
+.header-list a {
+  text-decoration: none;
+  color:#fff;
+  padding: 8px;
+}
+
+.header-list a:hover {
+  background-color: coral;
+  border-radius: 20px;
+}
+
+.copy-container {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 100px;
+  background-image: url(images/juple.jpg);
+  background-size: cover;
+  opacity: 0.9;
+  position: absolute;
+
+}
+
+.copy-container h1 {
+  font-size: 140px;
+  margin-bottom: 0px;
+  letter-spacing: 10px;
+  color: white;
+  text-shadow: 2px 5px 5px #404146;
+}
+
+.copy-container h2 {
+  font-size: 60px;
+  font-weight: 200;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+  text-shadow: 3px 3px 5px #404146;
+  opacity: 0.9;
+}
+
+.copy-container span {
+  color: #f2d00d;
+}
+
+.copy-container img {
+  height:300px;
+}
+
+.about { 
+  font-size: 28px;
+  height: 260px;
+  background-color: rgb(244, 244, 244);
+  padding-top: 450px;
+  padding-bottom: 80px;
+}
+
+.about h3 {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.about p {
+  padding: 0px 150px;
+  font-size: 20px;
+}
+
+.about a {
+  text-decoration: none;
+  color: #404146;
+}
+
+.about a:hover {
+  color: coral;
+}
+
+.contents {
+  height: 500px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.contents h3 {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+.contents-item {
+  float: left;
+  width: 33.3%;
+}
+
+.contents-item img {
+  height: 200px;
+  box-shadow: 5px 5px 20px rgba(228, 228, 228, 0.886);
+  padding: 10px;
+  border-style: dotted;
+  border-radius: 10px;
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.instagram {
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.instagram a {
+  text-decoration: none;
+}
+
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 0 7px #404146;
+  cursor: pointer;
+  background-color: rgb(120, 48, 202);
+  background-image: linear-gradient(to bottom, #AC3C96 0%, #5655A4 74%);
+}
+
+.btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.contact-form {
+  height: 700px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: rgb(244, 244, 244);
+}
+
+.contact-title {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+input, textarea {
+  width: 800px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding:20px;
+  font-size: 18px;
+  border: 0px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+::placeholder {
+  font-family: "Avenir Next";
+  color:#7C7D83;
+}
+
+.contact-submit{
+  width: 500px;
+  background-color:#f7ea8a;
+  color:#4f4f4f;
+  font-size: 22px;
+}
+
+.contact-submit:hover {
+  background-color: #7c7b76;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-form p{
+  font-size: 20px;
+}
+
+.detail-harga {
+  width: 60%;
+  margin: auto;
+}
+
+.footer {
+  background-color: #7C7D83;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+  font-size: 30px;
+  font-weight:700;
+  letter-spacing: 10px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color:#fff;
+  padding: 5px;
+}
+
+.footer-list a:hover {
+  background-color: coral;
+  border-radius: 8px;
+  color: white;
+}
+
